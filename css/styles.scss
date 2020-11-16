@@ -5,6 +5,21 @@ $background-pale: #d1c4e9;
 
 $carousel-item-height: 300px;
 
+//assignment 4
+
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
+    button{
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
+
+//assigment 4
 @mixin zero-margin($pad-up-down,$pad-left-right){
     margin: 0px auto;
     padding: $pad-up-down $pad-left-right;
